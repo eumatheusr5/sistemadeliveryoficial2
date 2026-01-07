@@ -23,9 +23,11 @@ dist-ssr
 *.sln
 *.sw?
 
-# Environment variables
+# Environment
 .env
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*.local
+
+# Supabase
+supabase/.branches
+supabase/.temp
